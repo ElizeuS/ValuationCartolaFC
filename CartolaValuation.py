@@ -127,7 +127,7 @@ class CartolaValue():
         print(zag.sort_values(by='min_pt', ascending=True))
         print(lat.sort_values(by='min_pt', ascending=True))
         print(mei.sort_values(by='min_pt', ascending=True))
-        print(ata.sort_values(by='min_pt', ascending=True).head(15))
+        print(ata.sort_values(by='min_pt', ascending=True))
 
 
     def third_round(self, data):
